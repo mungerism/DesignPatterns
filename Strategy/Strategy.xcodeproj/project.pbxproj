@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D136A91D65900C0046E789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136A81D65900C0046E789 /* main.m */; };
+		49D136B41D65917B0046E789 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136B31D65917B0046E789 /* FlyWithWings.m */; };
+		49D136B71D6592460046E789 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136B61D6592460046E789 /* FlyNoWay.m */; };
+		49D136BA1D6592A80046E789 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136B91D6592A80046E789 /* Duck.m */; };
+		49D136C51D6596640046E789 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136C41D6596640046E789 /* Quack.m */; };
+		49D136C81D6597280046E789 /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136C71D6597280046E789 /* MuteQuack.m */; };
+		49D136CB1D65980E0046E789 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136CA1D65980E0046E789 /* MallardDuck.m */; };
+		49D136CE1D6598220046E789 /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136CD1D6598220046E789 /* ModelDuck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49D136A31D65900C0046E789 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49D136A51D65900C0046E789 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D136A81D65900C0046E789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49D136AF1D6590A70046E789 /* FlyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
+		49D136B21D65917B0046E789 /* FlyWithWings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		49D136B31D65917B0046E789 /* FlyWithWings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		49D136B51D6592460046E789 /* FlyNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		49D136B61D6592460046E789 /* FlyNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		49D136B81D6592A80046E789 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		49D136B91D6592A80046E789 /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		49D136C21D6596230046E789 /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		49D136C31D6596640046E789 /* Quack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		49D136C41D6596640046E789 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		49D136C61D6597280046E789 /* MuteQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
+		49D136C71D6597280046E789 /* MuteQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
+		49D136C91D65980E0046E789 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		49D136CA1D65980E0046E789 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		49D136CC1D6598220046E789 /* ModelDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDuck.h; sourceTree = "<group>"; };
+		49D136CD1D6598220046E789 /* ModelDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDuck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D136A21D65900C0046E789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D1369C1D65900C0046E789 = {
+			isa = PBXGroup;
+			children = (
+				49D136A71D65900C0046E789 /* Strategy */,
+				49D136A61D65900C0046E789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D136A61D65900C0046E789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D136A51D65900C0046E789 /* Strategy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D136A71D65900C0046E789 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				49D136BF1D6595960046E789 /* Duck */,
+				49D136BE1D6595850046E789 /* Behavior */,
+				49D136A81D65900C0046E789 /* main.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		49D136BE1D6595850046E789 /* Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				49D136C11D6595D30046E789 /* Quack */,
+				49D136C01D6595BF0046E789 /* Fly */,
+			);
+			name = Behavior;
+			sourceTree = "<group>";
+		};
+		49D136BF1D6595960046E789 /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				49D136B81D6592A80046E789 /* Duck.h */,
+				49D136B91D6592A80046E789 /* Duck.m */,
+				49D136C91D65980E0046E789 /* MallardDuck.h */,
+				49D136CA1D65980E0046E789 /* MallardDuck.m */,
+				49D136CC1D6598220046E789 /* ModelDuck.h */,
+				49D136CD1D6598220046E789 /* ModelDuck.m */,
+			);
+			name = Duck;
+			sourceTree = "<group>";
+		};
+		49D136C01D6595BF0046E789 /* Fly */ = {
+			isa = PBXGroup;
+			children = (
+				49D136AF1D6590A70046E789 /* FlyBehavior.h */,
+				49D136B51D6592460046E789 /* FlyNoWay.h */,
+				49D136B61D6592460046E789 /* FlyNoWay.m */,
+				49D136B21D65917B0046E789 /* FlyWithWings.h */,
+				49D136B31D65917B0046E789 /* FlyWithWings.m */,
+			);
+			name = Fly;
+			sourceTree = "<group>";
+		};
+		49D136C11D6595D30046E789 /* Quack */ = {
+			isa = PBXGroup;
+			children = (
+				49D136C21D6596230046E789 /* QuackBehavior.h */,
+				49D136C31D6596640046E789 /* Quack.h */,
+				49D136C41D6596640046E789 /* Quack.m */,
+				49D136C61D6597280046E789 /* MuteQuack.h */,
+				49D136C71D6597280046E789 /* MuteQuack.m */,
+			);
+			name = Quack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D136A41D65900C0046E789 /* Strategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D136AC1D65900C0046E789 /* Build configuration list for PBXNativeTarget "Strategy" */;
+			buildPhases = (
+				49D136A11D65900C0046E789 /* Sources */,
+				49D136A21D65900C0046E789 /* Frameworks */,
+				49D136A31D65900C0046E789 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strategy;
+			productName = Strategy;
+			productReference = 49D136A51D65900C0046E789 /* Strategy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D1369D1D65900C0046E789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Utopia;
+				TargetAttributes = {
+					49D136A41D65900C0046E789 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 49D136A01D65900C0046E789 /* Build configuration list for PBXProject "Strategy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49D1369C1D65900C0046E789;
+			productRefGroup = 49D136A61D65900C0046E789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D136A41D65900C0046E789 /* Strategy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D136A11D65900C0046E789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D136C81D6597280046E789 /* MuteQuack.m in Sources */,
+				49D136CB1D65980E0046E789 /* MallardDuck.m in Sources */,
+				49D136BA1D6592A80046E789 /* Duck.m in Sources */,
+				49D136B71D6592460046E789 /* FlyNoWay.m in Sources */,
+				49D136B41D65917B0046E789 /* FlyWithWings.m in Sources */,
+				49D136A91D65900C0046E789 /* main.m in Sources */,
+				49D136CE1D6598220046E789 /* ModelDuck.m in Sources */,
+				49D136C51D6596640046E789 /* Quack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49D136AA1D65900C0046E789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49D136AB1D65900C0046E789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49D136AD1D65900C0046E789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49D136AE1D65900C0046E789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D136A01D65900C0046E789 /* Build configuration list for PBXProject "Strategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D136AA1D65900C0046E789 /* Debug */,
+				49D136AB1D65900C0046E789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D136AC1D65900C0046E789 /* Build configuration list for PBXNativeTarget "Strategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D136AD1D65900C0046E789 /* Debug */,
+				49D136AE1D65900C0046E789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D1369D1D65900C0046E789 /* Project object */;
+}
