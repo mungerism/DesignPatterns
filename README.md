@@ -1,2 +1,2 @@
 # DesignPatterns
-Design patterns with Objective C and Swift
+Design patterns with Objective-C and Swift
