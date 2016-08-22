@@ -11,7 +11,7 @@
 @implementation FlyWithWings
 
 - (void)fly{
-    NSLog(@"I'm flying");
+    NSLog(@"I can fly");
 }
 
 @end

@@ -10,5 +10,4 @@
 
 @interface MallardDuck : Duck
 
-
 @end

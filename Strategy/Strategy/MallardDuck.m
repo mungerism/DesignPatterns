@@ -8,18 +8,17 @@
 
 #import "MallardDuck.h"
 #import "FlyWithWings.h"
-#import "Quack.h"
+#import "GuGuQuack.h"
 
 @implementation MallardDuck
 
 - (instancetype)init{
     if (self = [super init]) {
         self.flyBehavior = [[FlyWithWings alloc]init];
-        self.quackBehavior = [[Quack alloc]init];
+        self.quackBehavior = [[GuGuQuack alloc]init];
         NSLog(@"I'm a mallardDuck");
     }
     return self;
 }
-
 
 @end

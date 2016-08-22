@@ -1,24 +1,23 @@
 //
-//  ModelDuck.m
+//  DomesticDuck.m
 //  Strategy
 //
-//  Created by Utopia on 16/8/18.
+//  Created by Utopia on 16/8/19.
 //  Copyright © 2016年 Utopia. All rights reserved.
 //
 
-#import "ModelDuck.h"
-#import "MuteQuack.h"
+#import "DomesticDuck.h"
 #import "FlyNoWay.h"
+#import "GaGaQuack.h"
 
-@implementation ModelDuck
+@implementation DomesticDuck
 
 - (instancetype)init{
     if (self = [super init]) {
+        self.quackBehavior = [[GaGaQuack alloc]init];
         self.flyBehavior = [[FlyNoWay alloc]init];
-        self.quackBehavior = [[MuteQuack alloc]init];
-        NSLog(@"I'm a modelDuck");
+        NSLog(@"I'm a DomesticDuck");
     }
-    
     return self;
 }
 

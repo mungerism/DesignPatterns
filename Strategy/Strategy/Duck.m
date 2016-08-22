@@ -18,6 +18,4 @@
     [self.quackBehavior quack];
 }
 
-
-
 @end

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MallardDuck.h"
-#import "ModelDuck.h"
+#import "DomesticDuck.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -18,9 +18,9 @@ int main(int argc, const char * argv[]) {
         [mallardDuck performFly];
         [mallardDuck performQuack];
         
-        ModelDuck *modelDuck = [[ModelDuck alloc]init];
-        [modelDuck performFly];
-        [modelDuck performQuack];
+        DomesticDuck *domesticDuck = [[DomesticDuck alloc]init];
+        [domesticDuck performFly];
+        [domesticDuck performQuack];
     }
     return 0;
 }

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C9C88E1D670D4E00228E95 /* DomesticDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C88D1D670D4E00228E95 /* DomesticDuck.m */; };
+		49C9C8911D670EBC00228E95 /* GuGuQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C8901D670EBC00228E95 /* GuGuQuack.m */; };
+		49C9C8941D670ED200228E95 /* GaGaQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C8931D670ED200228E95 /* GaGaQuack.m */; };
 		49D136A91D65900C0046E789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136A81D65900C0046E789 /* main.m */; };
 		49D136B41D65917B0046E789 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136B31D65917B0046E789 /* FlyWithWings.m */; };
 		49D136B71D6592460046E789 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136B61D6592460046E789 /* FlyNoWay.m */; };
 		49D136BA1D6592A80046E789 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136B91D6592A80046E789 /* Duck.m */; };
-		49D136C51D6596640046E789 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136C41D6596640046E789 /* Quack.m */; };
-		49D136C81D6597280046E789 /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136C71D6597280046E789 /* MuteQuack.m */; };
 		49D136CB1D65980E0046E789 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136CA1D65980E0046E789 /* MallardDuck.m */; };
-		49D136CE1D6598220046E789 /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D136CD1D6598220046E789 /* ModelDuck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49C9C88C1D670D4E00228E95 /* DomesticDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomesticDuck.h; sourceTree = "<group>"; };
+		49C9C88D1D670D4E00228E95 /* DomesticDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomesticDuck.m; sourceTree = "<group>"; };
+		49C9C88F1D670EBC00228E95 /* GuGuQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuGuQuack.h; sourceTree = "<group>"; };
+		49C9C8901D670EBC00228E95 /* GuGuQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuGuQuack.m; sourceTree = "<group>"; };
+		49C9C8921D670ED200228E95 /* GaGaQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaGaQuack.h; sourceTree = "<group>"; };
+		49C9C8931D670ED200228E95 /* GaGaQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaGaQuack.m; sourceTree = "<group>"; };
 		49D136A51D65900C0046E789 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D136A81D65900C0046E789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49D136AF1D6590A70046E789 /* FlyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
@@ -40,14 +46,8 @@
 		49D136B81D6592A80046E789 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
 		49D136B91D6592A80046E789 /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
 		49D136C21D6596230046E789 /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
-		49D136C31D6596640046E789 /* Quack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
-		49D136C41D6596640046E789 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
-		49D136C61D6597280046E789 /* MuteQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
-		49D136C71D6597280046E789 /* MuteQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
 		49D136C91D65980E0046E789 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
 		49D136CA1D65980E0046E789 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
-		49D136CC1D6598220046E789 /* ModelDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDuck.h; sourceTree = "<group>"; };
-		49D136CD1D6598220046E789 /* ModelDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDuck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 				49D136B91D6592A80046E789 /* Duck.m */,
 				49D136C91D65980E0046E789 /* MallardDuck.h */,
 				49D136CA1D65980E0046E789 /* MallardDuck.m */,
-				49D136CC1D6598220046E789 /* ModelDuck.h */,
-				49D136CD1D6598220046E789 /* ModelDuck.m */,
+				49C9C88C1D670D4E00228E95 /* DomesticDuck.h */,
+				49C9C88D1D670D4E00228E95 /* DomesticDuck.m */,
 			);
 			name = Duck;
 			sourceTree = "<group>";
@@ -125,10 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				49D136C21D6596230046E789 /* QuackBehavior.h */,
-				49D136C31D6596640046E789 /* Quack.h */,
-				49D136C41D6596640046E789 /* Quack.m */,
-				49D136C61D6597280046E789 /* MuteQuack.h */,
-				49D136C71D6597280046E789 /* MuteQuack.m */,
+				49C9C88F1D670EBC00228E95 /* GuGuQuack.h */,
+				49C9C8901D670EBC00228E95 /* GuGuQuack.m */,
+				49C9C8921D670ED200228E95 /* GaGaQuack.h */,
+				49C9C8931D670ED200228E95 /* GaGaQuack.m */,
 			);
 			name = Quack;
 			sourceTree = "<group>";
@@ -189,14 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D136C81D6597280046E789 /* MuteQuack.m in Sources */,
+				49C9C88E1D670D4E00228E95 /* DomesticDuck.m in Sources */,
 				49D136CB1D65980E0046E789 /* MallardDuck.m in Sources */,
+				49C9C8911D670EBC00228E95 /* GuGuQuack.m in Sources */,
+				49C9C8941D670ED200228E95 /* GaGaQuack.m in Sources */,
 				49D136BA1D6592A80046E789 /* Duck.m in Sources */,
 				49D136B71D6592460046E789 /* FlyNoWay.m in Sources */,
 				49D136B41D65917B0046E789 /* FlyWithWings.m in Sources */,
 				49D136A91D65900C0046E789 /* main.m in Sources */,
-				49D136CE1D6598220046E789 /* ModelDuck.m in Sources */,
-				49D136C51D6596640046E789 /* Quack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +317,7 @@
 				49D136AE1D65900C0046E789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
