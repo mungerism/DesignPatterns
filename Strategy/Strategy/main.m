@@ -13,12 +13,12 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-
-        MallardDuck *mallardDuck = [[MallardDuck alloc]init];
+        
+        Duck *mallardDuck = [[MallardDuck alloc]init];
         [mallardDuck performFly];
         [mallardDuck performQuack];
         
-        DomesticDuck *domesticDuck = [[DomesticDuck alloc]init];
+        Duck *domesticDuck = [[DomesticDuck alloc]init];
         [domesticDuck performFly];
         [domesticDuck performQuack];
     }
