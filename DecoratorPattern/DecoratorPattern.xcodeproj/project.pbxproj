@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4985B09F1D758D4C00E64B2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4985B09E1D758D4C00E64B2A /* main.m */; };
+		49C132481D79C7E70062E581 /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C132471D79C7E70062E581 /* HouseBlend.m */; };
+		49C1324B1D79C9C70062E581 /* DarkRoast.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C1324A1D79C9C70062E581 /* DarkRoast.m */; };
+		49C1324E1D79C9E50062E581 /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C1324D1D79C9E50062E581 /* Espresso.m */; };
+		49C132511D79C9FC0062E581 /* Decaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C132501D79C9FC0062E581 /* Decaf.m */; };
+		49C132551D79CC560062E581 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C132541D79CC560062E581 /* Milk.m */; };
+		49C132581D79CD340062E581 /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C132571D79CD340062E581 /* Mocha.m */; };
+		49C1325B1D79CDCE0062E581 /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C1325A1D79CDCE0062E581 /* Soy.m */; };
+		49C1325E1D79CE3E0062E581 /* Whip.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C1325D1D79CE3E0062E581 /* Whip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,24 @@
 /* Begin PBXFileReference section */
 		4985B09B1D758D4C00E64B2A /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		4985B09E1D758D4C00E64B2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4985B0A91D758F8500E64B2A /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		49C132461D79C7E70062E581 /* HouseBlend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		49C132471D79C7E70062E581 /* HouseBlend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		49C132491D79C9C70062E581 /* DarkRoast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkRoast.h; sourceTree = "<group>"; };
+		49C1324A1D79C9C70062E581 /* DarkRoast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkRoast.m; sourceTree = "<group>"; };
+		49C1324C1D79C9E50062E581 /* Espresso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		49C1324D1D79C9E50062E581 /* Espresso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		49C1324F1D79C9FC0062E581 /* Decaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decaf.h; sourceTree = "<group>"; };
+		49C132501D79C9FC0062E581 /* Decaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decaf.m; sourceTree = "<group>"; };
+		49C132521D79CB660062E581 /* CondimentDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CondimentDecorator.h; sourceTree = "<group>"; };
+		49C132531D79CC560062E581 /* Milk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		49C132541D79CC560062E581 /* Milk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		49C132561D79CD340062E581 /* Mocha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		49C132571D79CD340062E581 /* Mocha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		49C132591D79CDCE0062E581 /* Soy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		49C1325A1D79CDCE0062E581 /* Soy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
+		49C1325C1D79CE3E0062E581 /* Whip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whip.h; sourceTree = "<group>"; };
+		49C1325D1D79CE3E0062E581 /* Whip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Whip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +83,59 @@
 		4985B09D1D758D4C00E64B2A /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				4985B0A81D758ED700E64B2A /* ConcereteDecorator */,
+				4985B0A71D758EC000E64B2A /* Decorator */,
+				4985B0A61D758EAC00E64B2A /* ConcereteComponent */,
+				4985B0A51D758E9500E64B2A /* Component */,
 				4985B09E1D758D4C00E64B2A /* main.m */,
 			);
 			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		4985B0A51D758E9500E64B2A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4985B0A91D758F8500E64B2A /* Beverage.h */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		4985B0A61D758EAC00E64B2A /* ConcereteComponent */ = {
+			isa = PBXGroup;
+			children = (
+				49C132461D79C7E70062E581 /* HouseBlend.h */,
+				49C132471D79C7E70062E581 /* HouseBlend.m */,
+				49C132491D79C9C70062E581 /* DarkRoast.h */,
+				49C1324A1D79C9C70062E581 /* DarkRoast.m */,
+				49C1324C1D79C9E50062E581 /* Espresso.h */,
+				49C1324D1D79C9E50062E581 /* Espresso.m */,
+				49C1324F1D79C9FC0062E581 /* Decaf.h */,
+				49C132501D79C9FC0062E581 /* Decaf.m */,
+			);
+			name = ConcereteComponent;
+			sourceTree = "<group>";
+		};
+		4985B0A71D758EC000E64B2A /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				49C132521D79CB660062E581 /* CondimentDecorator.h */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
+		4985B0A81D758ED700E64B2A /* ConcereteDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				49C132531D79CC560062E581 /* Milk.h */,
+				49C132541D79CC560062E581 /* Milk.m */,
+				49C132561D79CD340062E581 /* Mocha.h */,
+				49C132571D79CD340062E581 /* Mocha.m */,
+				49C132591D79CDCE0062E581 /* Soy.h */,
+				49C1325A1D79CDCE0062E581 /* Soy.m */,
+				49C1325C1D79CE3E0062E581 /* Whip.h */,
+				49C1325D1D79CE3E0062E581 /* Whip.m */,
+			);
+			name = ConcereteDecorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C132551D79CC560062E581 /* Milk.m in Sources */,
+				49C1324B1D79C9C70062E581 /* DarkRoast.m in Sources */,
+				49C1324E1D79C9E50062E581 /* Espresso.m in Sources */,
+				49C1325E1D79CE3E0062E581 /* Whip.m in Sources */,
+				49C1325B1D79CDCE0062E581 /* Soy.m in Sources */,
+				49C132511D79C9FC0062E581 /* Decaf.m in Sources */,
+				49C132581D79CD340062E581 /* Mocha.m in Sources */,
+				49C132481D79C7E70062E581 /* HouseBlend.m in Sources */,
 				4985B09F1D758D4C00E64B2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +323,7 @@
 				4985B0A41D758D4C00E64B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
