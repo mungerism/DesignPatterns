@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Beverage.h"
+#import "CondimentDecorator.h"
 
-@interface Mocha : NSObject<Beverage>
+@interface Mocha : NSObject<CondimentDecorator>
 
 @property (strong, nonatomic)id<Beverage> beverage;
 

@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Beverage.h"
+#import "CondimentDecorator.h"
 
-@interface Whip : NSObject
+@interface Whip : NSObject <CondimentDecorator>
 
 @property (strong, nonatomic)id<Beverage> beverage;
 
