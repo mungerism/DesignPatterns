@@ -8,14 +8,24 @@
 
 #import "Whip.h"
 
-@implementation Whip
+@implementation Whip{
+    NSString *_name;
+}
 
-- (void)cost{
-    
+- (instancetype)initWithBeverage:(id<Beverage>)beverage{
+    if (self = [super init]) {
+        self.beverage = beverage;
+        _name = @"Whip";
+    }
+    return self;
 }
 
 - (NSString *)getName{
-    return nil;
+    return [NSString stringWithFormat:@"%@ + %@", [self.beverage getName], _name];
+}
+
+- (double)cost{
+    return .34 + [self.beverage cost];
 }
 
 @end

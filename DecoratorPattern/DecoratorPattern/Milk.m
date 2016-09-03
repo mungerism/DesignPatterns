@@ -8,14 +8,24 @@
 
 #import "Milk.h"
 
-@implementation Milk
-
-- (void)cost{
-    
+@implementation Milk{
+    NSString *_name;
 }
 
+- (instancetype)initWithBeverage:(id<Beverage>)beverage{
+    if (self = [super init]) {
+        _name = @"Milk";
+        self.beverage = beverage;
+    }
+    return self;
+}
 - (NSString *)getName{
-    return nil;
+    return [NSString stringWithFormat:@"%@ + %@", [self.beverage getName], _name ];
 }
+
+- (double)cost{
+    return .30 + [self.beverage cost];
+}
+
 
 @end
