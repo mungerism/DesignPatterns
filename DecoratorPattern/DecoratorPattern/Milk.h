@@ -15,4 +15,5 @@
 @property (strong, nonatomic)id<Beverage> beverage;
 
 - (instancetype)initWithBeverage:(id<Beverage>) beverage;
+
 @end

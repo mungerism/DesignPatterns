@@ -11,6 +11,4 @@
 
 @protocol CondimentDecorator <Beverage>
 
-
-
 @end

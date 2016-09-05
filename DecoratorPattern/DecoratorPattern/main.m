@@ -19,11 +19,9 @@ int main(int argc, const char * argv[]) {
         id<Beverage> espresso = [[Espresso alloc]init];
         NSLog(@"name: %@ \n cost: %f \n", [espresso getName], [espresso cost]);
         
-        id<Beverage> darkRoast = [[DarkRoast alloc]init];
-        darkRoast = [[Milk alloc]initWithBeverage:darkRoast];
-        darkRoast = [[Mocha alloc]initWithBeverage:darkRoast];
-        darkRoast = [[Soy alloc]initWithBeverage:darkRoast];
-        NSLog(@"name: %@ \n cost:%f", [darkRoast getName], [darkRoast cost]);
+        espresso = [[Milk alloc]initWithBeverage:espresso];
+        espresso = [[Mocha alloc]initWithBeverage:espresso];
+        NSLog(@"name: %@ \n cost:%f", [espresso getName], [espresso cost]);
     }
     return 0;
 }
