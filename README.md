@@ -1,4 +1,6 @@
 # Design Patterns(设计模式)
 Design patterns with Objective-C and Swift
 
-－ 策略模式
+已收录的设计模式
+- 策略模式（Strategy Pattern）
+- 装饰者模式（Decorator Pattern）
