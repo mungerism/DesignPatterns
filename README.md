@@ -1,4 +1,4 @@
-# Design Patterns(设计模式)
+# 设计模式(Design Patterns)
 Design patterns with Objective-C and Swift
 
 已收录的设计模式
